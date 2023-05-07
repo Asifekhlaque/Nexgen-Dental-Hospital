@@ -1,0 +1,81 @@
+.banner-section-bg-container{
+    background-image: url(https://img.freepik.com/free-photo/dentist-examining-patient-s-teeth_1098-568.jpg?w=1060&t=st=1683456259~exp=1683456859~hmac=daba1df50896df26126fcb655d69d679f8502aec2b5766f0ba62cf39a3102b09);
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-section-heading{
+    font-family: Roboto;
+    font-size: 32px;
+}
+
+.banner-section-paragraph{
+    font-family: caveat;
+    font-size: 18px;
+    color: rgb(18, 85, 209);
+}
+
+.banner-section-button1{
+    color: white;
+    background-color: rgb(192, 192, 11);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.banner-section-button2{
+    color: rgb(192, 192, 11);
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 10px;
+    border-color: yellow;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contaner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-family: roboto;
+
+}
+.img-contaner{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-box{
+    margin-right:20px ;
+    margin-bottom: 20px;
+}
+
+
+.img-main{
+    width: 300px;
+}
+.img-carousel{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.map-section{
+    margin: 30px;
+}
